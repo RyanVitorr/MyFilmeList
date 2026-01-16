@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --safe-height: 100vh;
+}
+
+@supports (height: 100dvh) {
+  :root {
+    --safe-height: 100dvh;
+  }
+}
