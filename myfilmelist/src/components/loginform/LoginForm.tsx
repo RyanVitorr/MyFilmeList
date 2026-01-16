@@ -1,9 +1,6 @@
 import React from "react";
-import {Router} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { UserService } from "../../services/UserService";
-
-import Home from "../../pages/home/Home";
 
 function LoginForm() {
   const navigate = useNavigate();
@@ -12,10 +9,10 @@ function LoginForm() {
     senha: ""
   });
 
-  const [loginError, setLoginError] = React.useState({
+  /*const [loginError, setLoginError] = React.useState({
     emailError: "",
     senhaError: ""
-  });
+  });*/
 
   const handleChanger = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;

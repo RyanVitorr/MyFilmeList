@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import type { UserCreate } from "../../types/User";
 import { UserService } from "../../services/UserService";
 
 interface cadastroFormProps {

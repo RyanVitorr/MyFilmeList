@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import type { Movie } from "../../types/Movie";
 import { MovieService } from "../../services/MovieService";
 import CardPrincipal from "../cardPrincipal/CardPrincipal";

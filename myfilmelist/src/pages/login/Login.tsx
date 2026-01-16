@@ -1,5 +1,5 @@
-import React from "react";
-import { useState, useEffect }from "react";
+
+import { useState }from "react";
 import logoClaquete from '../../assets/img/claquete.png'
 import LoginForm from "../../components/loginform/LoginForm";
 import CadastroForm from "../../components/cadastroform/CadastroForm";

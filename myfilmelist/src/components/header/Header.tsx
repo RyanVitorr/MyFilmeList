@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logoClaquete from '../../assets/img/claquete.png';
 import { UserService } from "../../services/UserService";

@@ -3,11 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ryanvitorr.github.io/MyFilmeList",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "gh-pages -d dist",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -33,5 +32,4 @@
     "typescript-eslint": "^8.46.3",
     "vite": "^7.2.2"
   }
-
 }

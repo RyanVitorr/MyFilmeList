@@ -1,9 +1,9 @@
-import React from "react";
+
 import { useState, useEffect } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import type { Movie, MovieDetails } from "../../types/Movie";
+import { Link } from "react-router-dom";
+import type { MovieDetails } from "../../types/Movie";
 import type { ListMovies } from "../../types/myList";
-import type { User, UserSession } from "../../types/User";
+import type { UserSession } from "../../types/User";
 import { UserService } from "../../services/UserService";
 import { ListaMovieService } from "../../services/ListaMovieService";
 
@@ -14,7 +14,6 @@ interface CardDetalhesProps {
 }
 
 function CardDetalhes( {movie, id, onNeedLogin}:CardDetalhesProps ){
-    const navigate = useNavigate();
     const [filmeStatus, setFilmeStatus] = useState<ListMovies>({
         idMovie: id, 
         saved: false,

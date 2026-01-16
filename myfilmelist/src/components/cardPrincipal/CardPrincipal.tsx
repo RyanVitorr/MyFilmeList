@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import type { Movie } from "../../types/Movie";
 import type { UserSession } from "../../types/User";
